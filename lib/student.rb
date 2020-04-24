@@ -11,7 +11,7 @@ class Student < User
     @knowledge << teacher.teach
   end
   
-  def knowledge
+  def self.knowledge
     @knowledge
   end
 
