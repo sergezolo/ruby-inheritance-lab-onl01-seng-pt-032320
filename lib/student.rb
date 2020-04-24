@@ -10,7 +10,9 @@ class Student < User
     @knowledge << teacher.teach
   end
   
-  
+  def knowledge
+    @knowledge
+  end
     
 
 end
